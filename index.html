@@ -27,35 +27,34 @@
             <div id="left-box" class="container col-6 border-dark "></div>
             <div id="right-box" class="container col-6 mh-auto">
                 <h2>What's on your mind?</h2>
+                <form id="submit-blog">
                 <div class="mb-3">
-                    <label class="form-label">Username</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="username">
+                    <label class="form-label" for="username-input">Username</label>
+                    <input type="text" class="form-control" id="username-input" placeholder="username">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Title</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="title here">
+                    <label class="form-label" for="title-input">Title</label>
+                    <input type="text" class="form-control" id="title-input" placeholder="title here">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Content</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    <label class="form-label" for="content-input">Content</label>
+                    <textarea class="form-control" id="content-input" rows="3"
                         placeholder="content here"></textarea>
                     <div class="d-grid gap-2 pt-3">
-                        <button id="submit-blog" class="btn btn-dark" type="submit">Submit</button>
+                         <button  class="btn btn-dark" type="submit">Submit</button>
                     </div>
 
                 </div>
+            </form>
             </div>
         </div>
     </main>
 
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/form.js"></script>
 </body>
 
 </html>
